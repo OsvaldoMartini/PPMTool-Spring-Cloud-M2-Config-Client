@@ -2,8 +2,11 @@
 
 Using:
 
-spring boot web
-spring boot thyme
+* spring boot web
+* spring boot thyme
+
+### Check the Usage of the Model:
+
 
 ```
     ...
