@@ -25,3 +25,35 @@ Using:
 ```
 
 http://localhost:8080/rate
+
+
+### '@RefreshScope'
+
+
+ Add the actuator dependency
+
+````
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency> 
+````
+
+When is called the endpoint:
+
+http://localhost:8080/refresh
+
+it will return alll field collected from 'Config Server'
+
+Change any value innside of the 'GitHub' like:
+
+	'rate=2.22' in the file "s1rates.properties"
+
+````
+ https://github.com/OsvaldoMartini/PPMTool-Spring-Cloud-Config-Wa-Tolls/blob/master/station1/s1rates.properties
+````
+  After that executethe Refresh call:
+  
+````
+  http://localhost:8080/refresh
+```
