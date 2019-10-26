@@ -40,8 +40,11 @@ http://localhost:8080/rate
 ````
 
 When is called the endpoint:
-
-http://localhost:8080/refresh
+	
+	> The Refresh 'actuator' is set in the Client Side
+	> this will update the cache
+	
+	'http://localhost:8080/refresh'
 
 it will return alll field collected from 'Config Server'
 
