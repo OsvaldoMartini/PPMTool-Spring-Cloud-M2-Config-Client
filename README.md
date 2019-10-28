@@ -55,7 +55,7 @@ Change any value innside of the 'GitHub' like:
 ````
  https://github.com/OsvaldoMartini/PPMTool-Spring-Cloud-Config-Wa-Tolls/blob/master/station1/s1rates.properties
 ````
-  After that executethe Refresh call:
+  After that execute the Refresh call:
   
 ````
   http://localhost:8080/refresh
